@@ -80,7 +80,7 @@ do
                 Console.Write("Matricula: ");
                 vendedor.Matricula = Console.ReadLine();
 
-                Console.Write("CPF: ");
+                Console.Write("Salario: ");
                 vendedor.Salario = double.Parse(Console.ReadLine());
 
                 funcionarios.Add(vendedor);
@@ -98,7 +98,7 @@ do
                 Console.Write("Matricula: ");
                 gerente.Matricula = Console.ReadLine();
 
-                Console.Write("CPF: ");
+                Console.Write("Salario: ");
                 gerente.Salario = double.Parse(Console.ReadLine());
 
                 funcionarios.Add(gerente);
